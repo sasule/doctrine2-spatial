@@ -41,4 +41,9 @@ class PolygonType extends GeometryType
     {
         return GeometryInterface::POLYGON;
     }
+
+    public function getName()
+    {
+        return "polygon";
+    }
 }

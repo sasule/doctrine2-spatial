@@ -48,4 +48,9 @@ class GeographyType extends AbstractGeometryType
     {
         return GeographyInterface::GEOGRAPHY;
     }
+
+    public function getName()
+    {
+        return "geography";
+    }
 }

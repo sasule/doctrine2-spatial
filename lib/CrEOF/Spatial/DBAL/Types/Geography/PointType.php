@@ -41,4 +41,9 @@ class PointType extends GeographyType
     {
         return GeometryInterface::POINT;
     }
+
+    public function getName()
+    {
+        return "geopoint";
+    }
 }

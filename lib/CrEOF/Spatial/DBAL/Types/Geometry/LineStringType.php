@@ -41,4 +41,9 @@ class LineStringType extends GeometryType
     {
         return GeometryInterface::LINESTRING;
     }
+
+    public function getName()
+    {
+        return "linestring";
+    }
 }

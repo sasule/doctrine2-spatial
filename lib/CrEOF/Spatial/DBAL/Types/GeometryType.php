@@ -48,4 +48,9 @@ class GeometryType extends AbstractGeometryType
     {
         return GeometryInterface::GEOMETRY;
     }
+
+    public function getName()
+    {
+        return "geometry";
+    }
 }
